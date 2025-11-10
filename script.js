@@ -137,7 +137,6 @@
     }
 
     function negateValue() {
-        if (displayValue === '0') return; 
+        if (displayValue === '0') return;
         displayValue = String(parseFloat(displayValue) * -1);
     }
-});
