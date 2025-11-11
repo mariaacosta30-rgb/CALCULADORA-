@@ -1,7 +1,6 @@
 const display = document.querySelector('#display');
 const buttons = document.querySelector('#buttons');
 
-// 2. SUAS VARIÁVEIS DE ESTADO (com uma adição)
 let displayValue = '0';
 let firstOperand = null;
 let operator = null;
